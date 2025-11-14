@@ -3,40 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>PAWTY PHIS TURNING 5</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Welcome to the Team Game!</h1>
-            <p>Let's have some fun together.</p>
-        </div>
-    </header>
-    
-    <main>
-        <div class="game-intro">
-            <h2>How to Play:</h2>
-            <ul>
-                <li>Step 1: Gather your team</li>
-                <li>Step 2: Choose your challenge</li>
-                <li>Step 3: Compete and have fun!</li>
-            </ul>
-        </div>
-        
-        <div class="game-play">
-            <button onclick="startGame()">Start Game</button>
-        </div>
-    </main>
 
-    <footer>
-        <p>&copy; 2025 Team Game. All rights reserved.</p>
-    </footer>
+<header>
+    <h1>🎉 PAWTY PHIS TURNING 5 🎉</h1>
+    <p>Office Team Olympics – 48 People • 6 Teams • 8 Members Each</p>
+</header>
 
-    <script>
-        function startGame() {
-            alert("The game has started! Good luck!");
-        }
-    </script>
+<nav class="navbar">
+    <a href="#agenda">Agenda</a>
+    <a href="#announcements">Announcements</a>
+    <a href="#teams">Teams & Scores</a>
+</nav>
+
+<!-- ====== ANNOUNCEMENTS SECTION ====== -->
+<section id="announcements" class="card">
+    <h2>📢 Announcements</h2>
+    <p id="announcement-text">No announcements yet! Stay tuned.</p>
+</section>
+
+<!-- ====== AGENDA SECTION ====== -->
+<section id="agenda" class="card">
+    <h2>🗓 Event Agenda</h2>
+
+    <ul class="agenda-list">
+        <li><strong>9–11 AM:</strong> Team Game 1 & 2</li>
+        <li><strong>11–12 PM:</strong> Food Arrangements</li>
+        <li><strong>12–2 PM:</strong> Lunch Break</li>
+        <li><strong>2–4 PM:</strong> Team Game 3 & 4</li>
+    </ul>
+</section>
+
+<!-- ====== TEAMS SECTION ====== -->
+<section id="teams" class="card">
+    <h2>🏆 Teams & Scores</h2>
+
+    <p class="hint">Teams automatically reorder based on score.</p>
+
+    <div id="team-container"></div>
+</section>
+
+<footer>
+    <p>PAWTY PHIS • Office Team Games • 5th Anniversary</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
